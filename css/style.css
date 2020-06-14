@@ -1,0 +1,462 @@
+@font-face {
+	font-family: BrandonGrotesque-Regular;
+	src: url('../fonts/NeutraText-Book.otf');
+}
+
+@font-face {
+	font-family: 'BrandonGrotesque-Light';
+	src: url('../fonts/Coves-Light.otf');
+}
+
+@font-face {
+	font-family: 'BrandonGrotesque-Bold';
+	src: url('../fonts/transat_bold-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'BrandonGrotesque-Medium';
+	src: url('../fonts/transat_medium-webfont.ttf');
+}
+
+body{
+	font-family: BrandonGrotesque-Regular;
+	padding: 0;
+	margin: 0;
+}
+
+/*header start*/
+
+header{
+	padding: 20px 0;
+}
+.b_img{
+	background-image: url(../img/banner.jpg);
+}
+.b_color{
+	background-color: #11132880;
+}
+.wrapper{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+	margin-top: 15px;
+}
+.img1{
+	height: 22px;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: 'BrandonGrotesque-Medium';
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	padding-bottom: 3px;
+	margin-right: 50px;
+	border-bottom: 1px solid transparent;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding: 70px 0;
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner-text{
+	text-align: center;
+}
+.banner-text p{
+	font-family: 'BrandonGrotesque-Light';
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.banner-text h1{
+	font-family: 'BrandonGrotesque-Bold';
+	font-size: 66px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+}
+.banner-text button{
+	font-family: 'BrandonGrotesque-Bold';
+	font-size: 23px;
+	color: #fff;
+	background: transparent;
+	padding: 10px 35px;
+	margin: 70px 0 40px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .5s;
+}
+.banner-text button:focus{
+	outline: none;
+}
+.banner-text button:hover{
+	color: #000;
+	background: #fff;
+}
+
+
+/*banner end*/
+
+/*section 1 start*/
+.section_1{
+	padding: 80px 0;
+	background-color: #fff;
+}
+.s1_left{
+	width: 65%;
+	float: left;
+}
+.h1_title{
+	font-family: 'BrandonGrotesque-Bold';
+	font-size: 60px;
+	font-weight: 500;
+	margin: 0px 0 15px;
+}
+.h1_title span{
+	font-family: 'BrandonGrotesque-Light';
+}
+.text{
+	font-size: 18px;
+	text-align: justify;
+	color: #777777;
+	line-height: 23px;
+}
+.s1_right{
+	width: 30%;
+	float: right;
+}
+.s1_right img{
+	width: 90%;
+	margin-top: 15px;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+.section_2{
+	padding: 80px 0;
+	background-color: #fafafa;
+}
+.s2_left{
+	width: 30%;
+	float: left;
+}
+.s2_left img{
+	width: 100%;
+	margin-top: 30px;
+}
+.s2_right{
+	width: 65%;
+	float: right;
+}
+/*section 2 end*/
+
+/*section 3 start*/
+.section_3{
+	padding: 80px 0;
+	background-color: #fff;
+}
+.s3_main{
+	overflow: hidden;
+}
+.s3-left{
+	width: 45%;
+	float: left;
+}
+.s3-right{
+	width: 45%;
+	float: right;
+}
+.item{
+	padding: 10px 0;
+	overflow: hidden;
+}
+.item-left{
+	width: 20%;
+	float: left;
+}
+.item-left img{
+	width: 100%;
+}
+.item-right{
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+}
+.h3_title{
+	font-family: 'BrandonGrotesque-Medium';
+	font-size: 22px;
+	color: #222222;
+	margin: 0;
+}
+/*section 3 end*/
+
+/*section 4 start*/
+.section_4{
+	padding: 80px 0 40px;
+	background-color: #fafafa;
+}
+.s4_1{
+	text-align: center;
+}
+.text2{
+	font-size: 22px;
+	color: #777777;
+	margin: 0;
+}
+
+.s4_2{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.s4_left1{
+	width: 23%;
+	float: left;
+}
+.circle{
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+	border-radius: 100px;
+}
+.s4_right1{
+	width: 70%;
+	float: right;
+	background-color: #fff;
+	margin-top: 30px;
+}
+
+blockquote{
+	font-size: 26px;
+	color: #777777;
+	margin: 20px 35px;
+}
+.declare{
+	font-size: 20px;
+	color: #7690c5;
+	padding-left: 40px;
+	margin-top: 0;
+}
+
+.s4_3{
+	overflow: hidden;
+	padding: 50px 0;
+}
+.s4_left2{
+	width: 70%;
+	float: left;
+	background-color: #fff;
+	margin-top: 30px;
+}
+.s4_right2{
+	width: 23%;
+	float: right;
+}
+
+/*section 4 end*/
+
+/*section 5 start*/
+
+.section_5{
+	padding: 80px 0;
+	background-color: #fff;
+}
+.s5_main img{
+	padding: 0 28px;
+}
+
+/*section 5 end*/
+
+/*section 6 start*/
+.section_6{
+	background-color: #000000;
+	padding: 80px 0;
+}
+.s6_head{
+	text-align: center;
+}
+.h1_title2{
+	font-family: 'BrandonGrotesque-Bold';
+	font-size: 60px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0 0 15px;
+}
+.h1_title2 span{
+	font-family: 'BrandonGrotesque-Light';
+	font-size: 60px;
+	font-weight: 300;
+}
+.s6_main{
+	overflow: hidden;
+	padding: 70px 0;
+}
+.box{
+	text-align: center;
+	width: 30%;
+	float: left;
+	margin-right: 44px;
+}
+
+.box:last-child{
+	margin-right: 0;
+}
+.b_radius{
+	border: 5px solid #fff;
+	margin-left: 28px;
+}
+.s6_title{
+	font-family: 'BrandonGrotesque-Bold';
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 8px;
+}
+.text3{
+	color: #fff;
+	margin: 0;
+}
+.icon{
+	padding: 30px 0;
+}
+.icon a{
+	font-size: 21px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	padding: 10px;
+	margin: 0 5px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	transition: .5s;
+}
+
+.icon a:nth-child(1):hover{
+	color: #fff;
+	background: #00aced;
+	border: 2px solid #00aced;
+}
+.icon a:nth-child(2):hover{
+	color: #fff;
+	background: #3b5998;
+	border: 2px solid #3b5998;
+}
+.icon a:nth-child(3):hover{
+	color: #fff;
+	background: #DB043C;
+	border: 2px solid #DB043C;
+}
+
+.s6_bootom p{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*section 6 end*/
+
+/*section 7 start*/
+footer{
+	background-color: #7690c5;
+}
+.f_main{
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+/*left side*/
+
+.f_left{
+	width: 50%;
+	float: left;
+}
+.f_left p{
+	font-size: 18px;
+	color: #fff;
+}
+.contact{
+	padding: 10px 0;
+	overflow: hidden;
+}
+.c_left{
+	float: left;
+}
+.c_left li{
+	font-size: 18px;
+	color: #fff;
+	padding: 5px 0;
+	list-style: none;
+}
+.c_right{
+	float: right;
+}
+.c_right li{
+	font-size: 18px;
+	color: #fff;
+	padding: 5px 0;
+	margin-right: 60px;
+	list-style: none;
+}
+
+/*right side*/
+
+.f_right{
+	width: 50%;
+	float: left;
+}
+
+.input{
+	font-family: 'BrandonGrotesque-Medium';
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin: 20px 0;
+	padding: 0px 0 0 10px;
+}
+
+.input2{
+	font-family: 'BrandonGrotesque-Medium';
+	font-size: 18px;
+	padding: 10px;
+}
+
+.copyright p{
+	font-family: 'BrandonGrotesque-Medium';
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+	border-top: 1px solid #87a0d2;
+}
+/*section 7 end*/
